@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+        <p id="h-signIn" class="h-text">Вхід</p>
+        <p id="h-signUp" class="h-text active">Реєстрація</p>
+    </header>
+
+    <main>
+        <center>
+            <div class="block" id="block-signUp">
+                <p class="active m-text">Реєстрація</p>
+                <div class="input-block">
+                    <input id="username" type="text" placeholder="Username">
+                    <input id="mail" type="text" placeholder="Email">
+                    <input id="password" type="password" placeholder="Password">
+                </div>
+                <button id="btn">Зареєструватись</button>
+            </div>
+            <div class="block none" id="block-signIn">
+                <p class="active m-text">Вхід</p>
+                <div class="input-block">
+                    <input id="email" type="text" placeholder="Email">
+                    <input id="check-password" type="password" placeholder="Password">
+                </div>
+                <button id="signIn-btn">Ввійти</button>
+            </div>
+        </center>
+    </main>
+
+    <script src="./dist/bundle.js"></script>
+
+</body>
+</html>
